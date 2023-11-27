@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import headercompo from './components/headercompo'
-const inter = Inter({ subsets: ['latin'] })
+import Headercompo from './maincomponents/Headercompo'
 
 export const metadata = {
   title: 'shin',
@@ -10,12 +9,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko">
-      <headercompo></headercompo>
-      <body>{children}</body>
-      <footer>
-
-      </footer>
-    </html>
+    <>
+      <Headercompo></Headercompo>
+      {children}
+      footer
+    </>
   )
 }
