@@ -1,18 +1,13 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
-import Headercompo from './maincomponents/Headercompo'
-
-export const metadata = {
-  title: 'shin',
-  description: 'hair',
-}
+import HeaderComponent from './components/HeaderCompnent'
 
 export default function RootLayout({ children }) {
   return (
-    <>
-      <Headercompo></Headercompo>
-      {children}
-      footer
-    </>
+    <html>
+      <body>
+      <HeaderComponent></HeaderComponent>
+        {children}
+      </body>
+    </html>
   )
 }
