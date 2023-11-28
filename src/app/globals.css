@@ -9,7 +9,12 @@ header{
 }
 
 .header-logo-div{
-  background-color: aqua;
+  background-color: rgb(34, 152, 152);
+}
+
+.menu-list{
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .menu-list ol{
@@ -19,7 +24,7 @@ header{
 
 .menu-list li{
   float: left;
-  margin: 0 20px;
+  margin: 0 35px;
 }
 
 .menu-list li::after{
