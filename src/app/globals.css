@@ -2,3 +2,45 @@ body, html{
   margin: 0;
   padding: 0;
 }
+
+header{
+  margin: 40px 80px;
+  display: flex;
+}
+
+.header-logo-div{
+  background-color: aqua;
+}
+
+.menu-list ol{
+  list-style: none;
+  float: left;
+}
+
+.menu-list li{
+  float: left;
+  margin: 0 20px;
+}
+
+.menu-list li::after{
+  content: "";
+  display: block;
+  border-bottom: 2px black;
+  transition: width 250ms ease-out;
+  left: auto;
+  right: 0;
+  width: 0;
+  height: 2px;
+}
+
+.menu-list li:hover::after{
+  right: auto;
+  left: 0;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+}
