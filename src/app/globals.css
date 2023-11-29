@@ -45,7 +45,57 @@ header{
   background-color: rebeccapurple;
 }
 
+/* 메인페이지 css */
+.main-div{
+  width: 100%;
+  display: flex;
+  margin: 150px 80px;
+}
+
+.main-left-div{
+  width: 40%;
+}
+
+.main-title-label{
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.main-explanation-label{
+  display: block;
+}
+
+.main-left-image{
+  width: 90%;
+  height: 200px;
+  background-color: aqua;
+  margin: 80px 0;
+}
+
+/* 메인페이지 가운데 css */
+.main-center-div{
+  width: 30%;
+  margin-top: 200px;
+  background-color: rgb(138, 207, 221);
+}
+
+
+/* 메인페이지 가운데 css */
+
+/* 메인페이지 오른쪽 css */
+.main-right-div{
+  width: 30%;
+}
+
+
+/* 메인페이지 오른쪽 css */
+
+
+/* 메인페이지 css */
+
+
 footer{
   position: absolute;
   bottom: 0;
 }
+
