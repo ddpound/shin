@@ -2,7 +2,7 @@ function HeaderComponent(){
     return (
         <header>
             <div className="header-logo-div">
-                logo or title
+                <img className="main-logo-img" src="/logo/hair.png" />
             </div>
             <div className="menu-list">
                 <ol>
