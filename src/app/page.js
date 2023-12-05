@@ -23,7 +23,15 @@ export default function Home() {
         </div>
       </div>
       <div className="main-right-div">
-        right div
+        <div className="main-right-slider">
+          <img src="/sample/hairshotsample/sample1.jpeg" />
+        </div>
+        <div className="main-right-slider">
+        <img src="/sample/hairshotsample/sample2.jpeg" />
+        </div>
+        <div className="main-right-slider">
+        <img src="/sample/hairshotsample/sample3.jpeg" />
+        </div>
       </div>
     </main>
   )
