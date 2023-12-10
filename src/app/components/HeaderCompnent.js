@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function HeaderComponent(){
     return (
         <header>
@@ -8,7 +10,7 @@ function HeaderComponent(){
                 <ol>
                     <li>Product Store</li>
                     <li>Our Story</li>
-                    <li>Store</li>
+                    <Link href={"/style-view"}><li>Style View</li></Link>
                     <li>Instar</li>
                 </ol>
             </div>

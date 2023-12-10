@@ -6,6 +6,17 @@ body, html{
   background-color: rgb(233, 233, 233);
 }
 
+a{
+  color: black;
+}
+
+.test{
+  color: black;
+  background-color: "black";
+  width: 100%;
+}
+
+
 header{
   margin: 40px 80px;
   display: flex;
