@@ -10,13 +10,6 @@ a{
   color: black;
 }
 
-.test{
-  color: black;
-  background-color: "black";
-  width: 100%;
-}
-
-
 header{
   margin: 40px 80px;
   display: flex;
@@ -67,10 +60,17 @@ header{
 
 /* 메인페이지 css */
 .main-div{
-  width: 100%;
+  width: 90%;
   height: 100vw;
   display: flex;
-  margin: 150px 80px;
+  margin: 150px auto;
+}
+
+/* 페이지별 메인 div*/
+.page-main-div{
+  width: 90%;
+  height: 100vw;
+  margin: 150px auto;
 }
 
 .main-left-div{
@@ -231,4 +231,16 @@ footer{
   width: 80%;
   height: 30px;
   margin: 28px auto;
+}
+
+/* style book css */
+
+.right-style-book{
+  width: 50%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.left-style-book{
+  width: 50%;
 }

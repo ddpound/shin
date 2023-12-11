@@ -4,13 +4,13 @@ function HeaderComponent(){
     return (
         <header>
             <div className="header-logo-div">
-                <img className="main-logo-img" src="/logo/hair.png" />
+                <Link href="/"><img className="main-logo-img" src="/logo/hair.png"/></Link>
             </div>
             <div className="menu-list">
                 <ol>
-                    <li>Product Store</li>
+                    <Link href="/store"><li>Product Store</li></Link>
                     <li>Our Story</li>
-                    <Link href={"/style-view"}><li>Style View</li></Link>
+                    <Link href="/style-book"><li>Style Book</li></Link>
                     <li>Instar</li>
                 </ol>
             </div>
