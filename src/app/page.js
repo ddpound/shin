@@ -3,6 +3,7 @@ export default function Home() {
     <main className="main-div">
       <div className="main-left-div">
         <div>
+          <label>A beautifull house</label>
           <label className="main-title-label">Furniture.</label>
           <p className="main-explanation-label">Find out the most efficient way to start</p>
           <p className="main-explanation-label">organizing your home. Begin by creating</p>
