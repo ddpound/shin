@@ -10,12 +10,12 @@ export default function Home() {
           <p className="main-explanation-label">storage space.</p>
         </div>
         <div className="main-left-image">
-          left div image or playvideo
+           <img src="sample/main-sample/main-sample-img.jpeg" />
         </div>
       </div>
       <div className="main-center-div">
         <div className="center-in-img-div">
-          image div
+          
         </div>
         <div className="center-in-explanation-div">
           01.<br/> A beatifull chair <br/>
