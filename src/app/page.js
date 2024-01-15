@@ -1,6 +1,7 @@
 export default function Home() {
   return (
-    <main className="main-div">
+    <main>
+      <div className="main-div">
       <div className="main-left-div">
         <div>
           <label>A beautifull house</label>
@@ -14,9 +15,7 @@ export default function Home() {
         </div>
       </div>
       <div className="main-center-div">
-        <div className="center-in-img-div">
-          
-        </div>
+        <div className="center-in-img-div"></div>
         <div className="center-in-explanation-div">
           01.<br/> A beatifull chair <br/>
           A collection of simple, minimal <br/>
@@ -32,6 +31,12 @@ export default function Home() {
         </div>
         <div className="main-right-slider">
         <img src="/sample/hairshotsample/sample3.jpeg" />
+        </div>
+      </div>
+      </div>
+      <div className="main-under-div">
+        <div className="first-image-div">
+          <img src="sample/main-sample/main-sample-img2.jpg"/>
         </div>
       </div>
     </main>

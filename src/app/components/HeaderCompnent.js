@@ -8,9 +8,9 @@ function HeaderComponent(){
             </div>
             <div className="menu-list">
                 <ol>
-                    <Link href="/store"><li>Product Store</li></Link>
+                    <Link href="/store"><li>예약</li></Link>
                     <li>Our Story</li>
-                    <Link href="/style-book"><li>Style Book</li></Link>
+                    <Link href="/style-book"><li>스타일북</li></Link>
                     <li>Instar</li>
                 </ol>
             </div>

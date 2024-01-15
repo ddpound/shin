@@ -6,6 +6,10 @@ body, html{
   background-color: rgb(233, 233, 233);
 }
 
+main{
+  height: 100vw;
+}
+
 a{
   color: black;
 }
@@ -61,9 +65,11 @@ header{
 /* 메인페이지 css */
 .main-div{
   width: 95%;
-  height: 100vw;
+  height: 50%;
   display: flex;
-  margin: 150px auto;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-div label:first-child{
@@ -103,6 +109,27 @@ header{
   width: 100%;
   object-fit: cover;
 }
+
+/* 메인페이지 아래 */
+.main-under-div{
+  width: 95%;
+  height: 50%;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-under-div .first-image-div{
+  width: 100%;
+  height: 100%;
+}
+
+.main-under-div .first-image-div img{
+  width: 100%;
+  height: 100%;
+}
+
+/* 메인페이지 아래 끝*/
 
 /* 메인페이지 가운데 css */
 .main-center-div{
